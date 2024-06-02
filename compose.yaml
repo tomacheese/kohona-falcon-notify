@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data
+    init: true
+    ports:
+      - 5900:5900
+    restart: on-failure:5
