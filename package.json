@@ -1,0 +1,48 @@
+{
+  "name": "kohona-falcon-notify",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/tomacheese/kohona-falcon-notify",
+  "bugs": {
+    "url": "https://github.com/tomacheese/kohona-falcon-notify/issues"
+  },
+  "license": "MIT",
+  "author": "Tomachi <tomachi@tomacheese.com>",
+  "private": true,
+  "main": "dist/main.js",
+  "repository": {
+    "url": "git@github.com:tomacheese/kohona-falcon-notify.git",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "tsx watch ./src/main.ts",
+    "fix": "run-z fix:prettier fix:eslint",
+    "fix:eslint": "eslint . -c eslint.config.mjs --fix",
+    "preinstall": "npx only-allow pnpm",
+    "fix:prettier": "prettier --write src",
+    "lint:eslint": "eslint . -c eslint.config.mjs",
+    "start": "tsx ./src/main.ts",
+    "lint:prettier": "prettier --check src",
+    "lint": "run-z lint:prettier,lint:eslint,lint:tsc",
+    "lint:tsc": "tsc",
+    "generate-schema": "typescript-json-schema --required src/config.ts ConfigInterface -o schema/Configuration.json"
+  },
+  "devDependencies": {
+    "@book000/eslint-config": "1.6.27",
+    "@book000/node-utils": "1.13.86",
+    "@book000/twitterts": "0.62.40",
+    "@types/node": "20.13.0",
+    "eslint": "9.4.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-n": "17.7.0",
+    "eslint-plugin-promise": "6.2.0",
+    "prettier": "3.3.0",
+    "run-z": "2.0.0",
+    "tsx": "4.11.0",
+    "twitter-d": "0.6.0",
+    "typescript": "5.4.5",
+    "typescript-json-schema": "0.63.0"
+  },
+  "packageManager": "pnpm@9.1.3"
+}
