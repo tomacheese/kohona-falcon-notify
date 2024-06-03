@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.90
         version: 1.13.90
       '@book000/twitterts':
-        specifier: 0.62.45
-        version: 0.62.45(ts-node@10.9.2(@types/node@20.13.0)(typescript@5.4.5))
+        specifier: 0.62.47
+        version: 0.62.47(ts-node@10.9.2(@types/node@20.13.0)(typescript@5.4.5))
       '@types/node':
         specifier: 20.13.0
         version: 20.13.0
@@ -78,14 +78,14 @@ packages:
       eslint: 9.4.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.86':
-    resolution: {integrity: sha512-bzsNPYCQXtpSNlKtbFvz2Wj3GflVMpo/rTP48stLiqBmiSfrGoPBwDph3BfGdaKT8huRiUJx7UI/ImgRnp1Rcw==}
+  '@book000/node-utils@1.13.89':
+    resolution: {integrity: sha512-/kJWob5B+SqmZ8G+6/N2dC0M/90tJ5udwU1k22Pga7B0DfzlA+yHeVf9nrmcbOHS3g4fWb6Clf/Ou9kadMjEDA==}
 
   '@book000/node-utils@1.13.90':
     resolution: {integrity: sha512-JwKMk6LaMtDI8MiXaCCsM2L+TBSOo4AafepTMKtfG4M69yDcjSrZ57oGUlBBt4ZbXI3inwEWtd7VQNjdkedU0A==}
 
-  '@book000/twitterts@0.62.45':
-    resolution: {integrity: sha512-jsGOi2UDIR3eTTvP02ZUQXfmJ0SPmW/cLZekClj/SEAaghWZ9iDMQwi4MJzvRZC1q6BYi/YisjgWbPhCfbd2wg==}
+  '@book000/twitterts@0.62.47':
+    resolution: {integrity: sha512-MG9yz2fzAhJq3is/rdh7zJGkhH+BRgAkLSKTXz8+EeRIg4s4hs1eMKG+zwR6+33AcyuX7rpnLZQteNHMlk53vQ==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2363,7 +2363,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.86':
+  '@book000/node-utils@1.13.89':
     dependencies:
       axios: 1.7.2
       cycle: 1.0.3
@@ -2387,9 +2387,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.62.45(ts-node@10.9.2(@types/node@20.13.0)(typescript@5.4.5))':
+  '@book000/twitterts@0.62.47(ts-node@10.9.2(@types/node@20.13.0)(typescript@5.4.5))':
     dependencies:
-      '@book000/node-utils': 1.13.86
+      '@book000/node-utils': 1.13.89
       genson-js: 0.0.8
       json-schema-to-typescript: 14.0.5
       mysql2: 3.10.0
