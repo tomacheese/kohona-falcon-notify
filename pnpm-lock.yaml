@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.94
         version: 1.13.94
       '@book000/twitterts':
-        specifier: 0.62.53
-        version: 0.62.53(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))
+        specifier: 0.62.54
+        version: 0.62.54(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))
       '@types/node':
         specifier: 20.14.1
         version: 20.14.1
@@ -84,8 +84,8 @@ packages:
   '@book000/node-utils@1.13.94':
     resolution: {integrity: sha512-t9Q5yzdmttPP38RjWcGTc+zWRTCb8ekRkogB/u+aOZqFsSdn5Z1rDhYKg6BMS9LUcyk2LOqd685dml1lEttfLA==}
 
-  '@book000/twitterts@0.62.53':
-    resolution: {integrity: sha512-v8BaWgllF6y2f9rISxQ+e6Zo9znNdAWIw3l7x0PB7g9IMAC6IgRR7Og7PYVSb3fGk0uU6Ygi9SmQiJicEvPCXA==}
+  '@book000/twitterts@0.62.54':
+    resolution: {integrity: sha512-Fvu/Q1Jxj6agvSqnkUyukk0LmdSkVbQ6ULSv0qalHtsOmiT9aFD819Hzy4biztI1H6vfuSLQBxeJrXl5Cv+8TQ==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2388,7 +2388,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.62.53(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))':
+  '@book000/twitterts@0.62.54(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))':
     dependencies:
       '@book000/node-utils': 1.13.93
       genson-js: 0.0.8
@@ -2734,7 +2734,7 @@ snapshots:
 
   agent-base@7.1.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -3461,7 +3461,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -3608,7 +3608,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.5
       data-uri-to-buffer: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.5
       fs-extra: 11.2.0
     transitivePeerDependencies:
       - supports-color
@@ -3693,14 +3693,14 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.4:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -4124,7 +4124,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       get-uri: 6.0.3
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
@@ -4195,7 +4195,7 @@ snapshots:
   proxy-agent@6.4.0:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
       lru-cache: 7.18.3
@@ -4382,7 +4382,7 @@ snapshots:
   socks-proxy-agent@8.0.3:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
