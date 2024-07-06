@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.159
         version: 1.13.159
       '@book000/twitterts':
-        specifier: 0.64.6
-        version: 0.64.6(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
+        specifier: 0.64.8
+        version: 0.64.8(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
       '@types/node':
         specifier: 20.14.10
         version: 20.14.10
@@ -81,8 +81,8 @@ packages:
   '@book000/node-utils@1.13.159':
     resolution: {integrity: sha512-A2+BYJlAZpmC47537sjba82G+Qu5Tv4E1inzSK1SPWREKvo6EFI7fsyaToipu3/g9k9o7I1LhNTfspKC7qIIWQ==}
 
-  '@book000/twitterts@0.64.6':
-    resolution: {integrity: sha512-1Utt+p8jhiWmR4kRtR7XVDWMqqucjez4mFZGduNNeZEY/4ichJ/wjdiP4je2X8IisMtGXyDhfAQDQBbUZBSrQw==}
+  '@book000/twitterts@0.64.8':
+    resolution: {integrity: sha512-IRwp6SSkUxUMEA43s33Tlg/WXvwwcCvXn8rxvKEG4cvAAWa0bSzc9V9cdA5Y/09vxZH77KESVEjLNREfk57c4Q==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1550,8 +1550,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  mysql2@3.10.1:
-    resolution: {integrity: sha512-6zo1T3GILsXMCex3YEu7hCz2OXLUarxFsxvFcUHWMpkPtmZLeTTWgRdc1gWyNJiYt6AxITmIf9bZDRy/jAfWew==}
+  mysql2@3.10.2:
+    resolution: {integrity: sha512-KCXPEvAkO0RcHPr362O5N8tFY2fXvbjfkPvRY/wGumh4EOemo9Hm5FjQZqv/pCmrnuxGu5OxnSENG0gTXqKMgQ==}
     engines: {node: '>= 8.0'}
 
   mz@2.7.0:
@@ -2382,17 +2382,17 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.64.6(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))':
+  '@book000/twitterts@0.64.8(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))':
     dependencies:
       '@book000/node-utils': 1.13.159
       genson-js: 0.0.8
       json-schema-to-typescript: 14.0.5
-      mysql2: 3.10.1
+      mysql2: 3.10.2
       otplib: 12.0.1
       puppeteer-core: 22.11.1
       twitter-d: 0.6.0
-      typeorm: 0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
-      typeorm-naming-strategies: 4.1.0(typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3)))
+      typeorm: 0.3.20(mysql2@3.10.2)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
+      typeorm-naming-strategies: 4.1.0(typeorm@0.3.20(mysql2@3.10.2)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3)))
     transitivePeerDependencies:
       - '@google-cloud/spanner'
       - '@sap/hana-client'
@@ -3996,7 +3996,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  mysql2@3.10.1:
+  mysql2@3.10.2:
     dependencies:
       denque: 2.1.0
       generate-function: 2.3.1
@@ -4641,11 +4641,11 @@ snapshots:
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
 
-  typeorm-naming-strategies@4.1.0(typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))):
+  typeorm-naming-strategies@4.1.0(typeorm@0.3.20(mysql2@3.10.2)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))):
     dependencies:
-      typeorm: 0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
+      typeorm: 0.3.20(mysql2@3.10.2)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
 
-  typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3)):
+  typeorm@0.3.20(mysql2@3.10.2)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       app-root-path: 3.1.0
@@ -4663,7 +4663,7 @@ snapshots:
       uuid: 9.0.1
       yargs: 17.7.2
     optionalDependencies:
-      mysql2: 3.10.1
+      mysql2: 3.10.2
       ts-node: 10.9.2(@types/node@20.14.10)(typescript@5.5.3)
     transitivePeerDependencies:
       - supports-color
