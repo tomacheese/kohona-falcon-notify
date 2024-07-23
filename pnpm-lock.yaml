@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.183
         version: 1.13.183
       '@book000/twitterts':
-        specifier: 0.64.66
-        version: 0.64.66(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.5.3))
+        specifier: 0.64.70
+        version: 0.64.70(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.5.3))
       '@types/node':
         specifier: 20.14.11
         version: 20.14.11
@@ -81,8 +81,11 @@ packages:
   '@book000/node-utils@1.13.183':
     resolution: {integrity: sha512-1vDTe1wuf85D88EGRPBuErnhImLXL2rWLT5NaXdOP+9sbFmd6Ci/xF7QEa4ikugCZMHal/QUxLEdmvzm4VZkNQ==}
 
-  '@book000/twitterts@0.64.66':
-    resolution: {integrity: sha512-9f6fgchoUJH1l9Df3MnhEgEuQbDyT3bxpdIzt5STiSrJ9qbwKwh52Bb3LLPV6IKnen4DMeUxfHMhgtHZYICQZw==}
+  '@book000/node-utils@1.13.185':
+    resolution: {integrity: sha512-6dwshhzAMhxx1/U3mKvyfRthPfu5lsrBy16Zunt3s8Kg7O4ZdbrX3uzvdtRjRJSHnGZGJHFsrPlQBg05JLuXqg==}
+
+  '@book000/twitterts@0.64.70':
+    resolution: {integrity: sha512-0geodtG4bAW8mzEJgvYrkFIYk5n/acLRlYBsCM7goMia1xFHgzqHLRauGcCZS33sDwGNp1uaXN/SLTj3hCG1YQ==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1395,8 +1398,8 @@ packages:
   json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
 
-  json-schema-to-typescript@14.1.0:
-    resolution: {integrity: sha512-VIeAFQkn88gFh26MSHWG4uX7TjK/arTw0NVLMZn6vX1WrSF+P6xu5MyEdovu+9PJ0uiS5gm0wzwQvYW9eSq1uw==}
+  json-schema-to-typescript@15.0.0:
+    resolution: {integrity: sha512-gOX3cJB4eL1ztMc3WUh569ubRcKnr8MnYk++6+/WaaN4bufGHSR6EcbUbvLZgirPQOfvni5SSGkRx0pYloYU8A==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
@@ -2358,11 +2361,23 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.64.66(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.5.3))':
+  '@book000/node-utils@1.13.185':
     dependencies:
-      '@book000/node-utils': 1.13.183
+      axios: 1.7.2
+      cycle: 1.0.3
+      form-data: 4.0.0
+      jsonc-parser: 3.3.1
+      moment-timezone: 0.5.45
+      winston: 3.13.1
+      winston-daily-rotate-file: 5.0.0(winston@3.13.1)
+    transitivePeerDependencies:
+      - debug
+
+  '@book000/twitterts@0.64.70(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.5.3))':
+    dependencies:
+      '@book000/node-utils': 1.13.185
       genson-js: 0.0.8
-      json-schema-to-typescript: 14.1.0
+      json-schema-to-typescript: 15.0.0
       mysql2: 3.10.3
       otplib: 12.0.1
       puppeteer-core: 22.13.1
@@ -3825,7 +3840,7 @@ snapshots:
 
   json-parse-even-better-errors@2.3.1: {}
 
-  json-schema-to-typescript@14.1.0:
+  json-schema-to-typescript@15.0.0:
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.6.4
       '@types/json-schema': 7.0.15
