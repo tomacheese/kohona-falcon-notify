@@ -1,4 +1,4 @@
-FROM zenika/alpine-chrome:with-puppeteer-xvfb as runner
+FROM zenika/alpine-chrome:with-puppeteer-xvfb AS runner
 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME/bin:$PATH"
@@ -30,14 +30,14 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 COPY entrypoint.sh ./
 RUN chmod +x ./entrypoint.sh
 
-ENV TZ Asia/Tokyo
-ENV DISPLAY :99
-ENV CHROMIUM_PATH /usr/bin/chromium-browser
-ENV NODE_ENV production
-ENV CONFIG_PATH /data/config.json
-ENV NOTIFIED_PATH /data/notified.json
-ENV LOG_DIR /data/logs/
-ENV USER_DATA_DIRECTORY /data/userdata/
+ENV TZ=Asia/Tokyo
+ENV DISPLAY=:99
+ENV CHROMIUM_PATH=/usr/bin/chromium-browser
+ENV NODE_ENV=production
+ENV CONFIG_PATH=/data/config.json
+ENV NOTIFIED_PATH=/data/notified.json
+ENV LOG_DIR=/data/logs/
+ENV USER_DATA_DIRECTORY=/data/userdata/
 
 ENTRYPOINT ["tini", "--"]
 CMD ["/app/entrypoint.sh"]
