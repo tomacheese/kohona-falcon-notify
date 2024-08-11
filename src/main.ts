@@ -75,7 +75,7 @@ async function main() {
     const notifyTweets = tweets.filter((tweet) => {
       return (
         !notified.isNotified(tweet.id_str) &&
-        (tweet.full_text.match(/ファルコン・.{1,10}/) !== null ||
+        ((/ファルコン・.{1,10}/.exec(tweet.full_text)) !== null ||
           tweet.full_text.includes('2戦目'))
       )
     })
