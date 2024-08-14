@@ -76,7 +76,8 @@ async function main() {
       return (
         !notified.isNotified(tweet.id_str) &&
         (/ファルコン・.{1,10}/.exec(tweet.full_text) !== null ||
-          tweet.full_text.includes('2戦目'))
+          tweet.full_text.includes('2戦目')) &&
+        !tweet.full_text.startsWith('RT @')
       )
     })
     logger.info(`🔔 Notify ${notifyTweets.length} tweets`)
