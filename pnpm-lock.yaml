@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.336
         version: 1.13.336
       '@book000/twitterts':
-        specifier: 0.70.71
-        version: 0.70.71
+        specifier: 0.70.72
+        version: 0.70.72
       '@types/node':
         specifier: 22.8.7
         version: 22.8.7
@@ -77,8 +77,8 @@ packages:
   '@book000/node-utils@1.13.336':
     resolution: {integrity: sha512-FPb1NFliLOqUQM+5cZcMKKEQef0LR9rZwOPjB5/R/tl2W41+HuqAiQraeZ8GrVQSM2C2rRAkzq0EFzMi3zMqSg==}
 
-  '@book000/twitterts@0.70.71':
-    resolution: {integrity: sha512-lc7D9T1e/nYFZARtMm9ff98eidkNJ+MYFSDrERFk2EBfOYs+Q/ReKBG3r5nNlM13y0ZYSdzZU1dP7kS7EbWM0g==}
+  '@book000/twitterts@0.70.72':
+    resolution: {integrity: sha512-JCxYu5gd6eXn6p9RznWXweJ7KW7kZtZEEYV40CeL6MEpZqPGM4rgH9NIcALFIRwKfpfUf1qP0LdmuiKo7GUFjQ==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2171,7 +2171,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.70.71':
+  '@book000/twitterts@0.70.72':
     dependencies:
       '@book000/node-utils': 1.13.336
       genson-js: 0.0.8
