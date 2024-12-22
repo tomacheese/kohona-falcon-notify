@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.400
         version: 1.13.400
       '@book000/twitterts':
-        specifier: 0.71.107
-        version: 0.71.107
+        specifier: 0.71.108
+        version: 0.71.108
       '@types/node':
         specifier: 22.10.2
         version: 22.10.2
@@ -77,8 +77,11 @@ packages:
   '@book000/node-utils@1.13.400':
     resolution: {integrity: sha512-8AhV1PUX+ITLhrh3wRKZCCXsoyLbdbXKM15s5K1pPBUtsj+TjFLe0GjAUwHflIb+GdxuQl3+/5g7L11zaQTGfg==}
 
-  '@book000/twitterts@0.71.107':
-    resolution: {integrity: sha512-Qno/njxrqjfrS0CCUOn8SfQcCz40i6kJzDNflZXt35GCAeUic4qMNn1tZbruQL4PDiNvYxF3IvgWUV7g5HPiWA==}
+  '@book000/node-utils@1.13.401':
+    resolution: {integrity: sha512-5LqkZmuNQ3YSlrRwgvlyhgK5cyn3fKOsiROrhkSbp4rodlLlTrzKaJVvrvvs9J1qT1MTsGsgWuKIf7XV6uNNhQ==}
+
+  '@book000/twitterts@0.71.108':
+    resolution: {integrity: sha512-AEN/z01/w8fCTAH5bOoBGVeMaIw6SOzJu0hr4MyCmMV9g+5z81R2XZ3uKOh2ILn03Fv5HUVnB+3Eyq9pWyOJVA==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2160,9 +2163,21 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.107':
+  '@book000/node-utils@1.13.401':
     dependencies:
-      '@book000/node-utils': 1.13.400
+      axios: 1.7.9
+      cycle: 1.0.3
+      form-data: 4.0.1
+      jsonc-parser: 3.3.1
+      moment-timezone: 0.5.46
+      winston: 3.16.0
+      winston-daily-rotate-file: 5.0.0(winston@3.16.0)
+    transitivePeerDependencies:
+      - debug
+
+  '@book000/twitterts@0.71.108':
+    dependencies:
+      '@book000/node-utils': 1.13.401
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.3
       json-stable-stringify: 1.1.1
