@@ -15,8 +15,8 @@ importers:
         specifier: 1.18.169
         version: 1.18.169
       '@book000/twitterts':
-        specifier: 0.84.9
-        version: 0.84.9
+        specifier: 0.84.11
+        version: 0.84.11
       '@types/node':
         specifier: 24.10.1
         version: 24.10.1
@@ -73,8 +73,8 @@ packages:
   '@book000/node-utils@1.18.169':
     resolution: {integrity: sha512-sluQOClATSjXLhkS4OLiF1LBrMTwDfObFTXJXjDxKaBS81cfWH9JyNYNH4a0B2k9QLz9RkdhLAL2SRNcjDuUGA==}
 
-  '@book000/twitterts@0.84.9':
-    resolution: {integrity: sha512-XcjJ0bDGRaAMQQKKa0KfWESWCl8ftJ4VF+Hz/1mMXMA2kj9MSLagmpq7j586BwyS/I0ZTqO5USbY8xuwWvYxog==}
+  '@book000/twitterts@0.84.11':
+    resolution: {integrity: sha512-OyRZG3fNHCsFe6IsF/FrHB+gzv5IcLTWqiBUvsfIUjZoEzRZvaSF9Pibc2FXIpbwCjZgiOIa9JXHnux4lJHkRw==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2070,7 +2070,7 @@ snapshots:
     dependencies:
       '@jsdevtools/ono': 7.1.3
       '@types/json-schema': 7.0.15
-      js-yaml: 4.1.0
+      js-yaml: 4.1.1
 
   '@babel/helper-validator-identifier@7.28.5': {}
 
@@ -2105,7 +2105,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.84.9':
+  '@book000/twitterts@0.84.11':
     dependencies:
       '@book000/node-utils': 1.18.169
       genson-js: 0.0.8
@@ -3514,7 +3514,7 @@ snapshots:
       '@types/json-schema': 7.0.15
       '@types/lodash': 4.17.20
       is-glob: 4.0.3
-      js-yaml: 4.1.0
+      js-yaml: 4.1.1
       lodash: 4.17.21
       minimist: 1.2.8
       prettier: 3.7.1
